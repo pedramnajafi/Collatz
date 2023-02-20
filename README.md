@@ -15,4 +15,3 @@ The Collatz conjecture is one of the most famous unsolved problems in mathematic
             number_inserted = collatz(int(number_inserted))
     except ValueError:
         print('you must enter a number')    
-
