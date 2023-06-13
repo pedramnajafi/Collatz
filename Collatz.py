@@ -12,3 +12,5 @@ try:
         number_inserted = collatz(int(number_inserted))
 except ValueError:
     print('you must enter a number')    
+
+    
