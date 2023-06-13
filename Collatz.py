@@ -5,7 +5,8 @@ def collatz(number):
     elif number % 2 == 1:
         result = 3 * number + 1
         print(result)
-        return result       
+        return result     
+    
 try:
     number_inserted = input('Please enter a number ')
     while number_inserted != 1:
